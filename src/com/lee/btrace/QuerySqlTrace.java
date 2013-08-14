@@ -8,7 +8,7 @@ import com.sun.btrace.annotations.*;
 
 import static com.sun.btrace.BTraceUtils.*;
 
-//统计hibernate下的一些sql查询执行情况   分支下修改  再次修改  主干修改
+//统计hibernate下的一些sql查询执行情况   分支下修改  再次修改  分支修改
 @BTrace
 public class QuerySqlTrace {
 	private static long execStatementCount = 0l;  
